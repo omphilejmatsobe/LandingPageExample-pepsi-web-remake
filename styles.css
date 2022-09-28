@@ -1,0 +1,81 @@
+#Home{ display: grid;
+      grid-template-rows: 9vh 80vh 12vh;
+      grid-gap: 0;
+      grid-template-columns: 100%;
+      background-color: rgb(46, 66, 66);
+    margin:0; 
+    padding: 0;}
+
+#section{   position: relative;
+            min-height: 70px;
+           
+            padding: 100px;
+            display: flex;
+            transition: 0.5s;
+            align-items: center;
+}
+
+nav{margin: 0; display: grid;
+    position: relative;
+     
+     grid-template-columns: 40% 55%;
+     
+     
+     align-items: center;
+     padding:0 50px;
+    }
+
+#nav-link{  color:white;}
+.nav-links > ul{    align-content: center;
+            display: flex; 
+            justify-content: space-around;
+           
+        }
+#logo{ font-family: sans-serif; margin-left: 70px;}
+main{ position: relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;}
+
+.text{ margin-left:100px;width: 500px; position: relative; color:rgb(183, 184, 187) ;font-family:'Times New Roman', Times, serif;}
+.text > h1{ text-transform: uppercase;}
+.image> img{ height: 400px;}
+ul> li { list-style: none;}
+.nav-links> ul > li {
+                font-size: 15px;
+                display: inline-block;
+                font-family: 'Courier New', Courier, monospace;}
+
+.nav-links> ul > li > a{ list-style: none; color: white;text-decoration: none ;}
+.nav-links > ul> li> a:hover{ color:red;}
+.nav-links > a:visited{ color: white;}
+.slide{ display:flex; justify-content: center; align-items:center;}
+.slide > ul > li{ display: inline-block; list-style: none; justify-content: space-between;}
+.slide > ul >li > img{ height:45px; cursor: pointer; margin:7px;transition: 0.7s;}
+.slide > ul >li > img:hover{ transform: scale(1.3); }
+ul > li > a > img{ height:30px; margin:10px; justify-content: center; transition: 0.7s; }
+ul > li > a > img:hover{  transform:scale(1.3);}
+
+.button > a{ display:inline-block;
+        margin-top: 15px;
+        padding:8px 20px;
+        background: white;
+        color:grey;
+        border-radius: 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 10px;
+        font-family:sans-serif;}
+
+    #text{ font-size: 60px; font-weight: 800;}
+@media only screen and (max-width:750px){
+
+    .nav-links > ul{ visibility:hidden;}
+}
+
+@media only screen and (max-width:600px){
+
+    .social-links{ visibility:hidden;}
+}

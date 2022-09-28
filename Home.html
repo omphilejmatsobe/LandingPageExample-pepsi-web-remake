@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Porduct Landing Page</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <script type="text/javascript">
+            function imageSlider(anything){
+                document.querySelector('#can').src = anything;
+
+            }
+
+        </script>
+
+    </head>
+    <body id="Home">
+        <header id=>
+            <nav id="nav-link">
+                <div class="logo" id="logo"><h1>pepsi</h1></div>
+                <div class="nav-links">
+                    <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main >
+            <div class="text"><em><h1>Refresh yourself, with the real<br/><span id="text">Cola taste.</span> </h1></em>
+            
+            </p>
+        <div class='button'><a href=''>View all the products</a></div></div>
+            <div class="image"><img src='./images/pepsi001.png' alt='' id="can"></div>
+            <div class="social-links">
+                <ul>
+                    <li><a href=""><img src='./images/instagram.png' alt=''></a></li>
+                    <li><a href=""><img src='./images/twitter.png' alt=''></a></li>
+                    <li><a href=""><img src='./images/facebook.png' alt='' ></a></li>
+                </ul></div>
+
+                
+        </main>
+        <div class="slide">
+            <ul >
+                <li><img src="./images/pepsi001.png" alt="" onclick="imageSlider('./images/pepsi001.png')"></li>
+                <li><img src="./images/pepsi002.png" alt="" onclick="imageSlider('./images/pepsi002.png')"></li>
+                <li><img src="./images/pepsi003.png" alt="" onclick="imageSlider('./images/pepsi003.png')"></li>
+            </ul>
+        
+       
+        </div>
+        
+    </body>
+</html>
